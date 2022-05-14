@@ -31,6 +31,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#org">Organizations</a>
           </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link" href="https://docs.google.com/document/d/1prGxl3b9tvwXt3EMqHrq5gKHdp_0GB4PVj1VRiiVBWs/edit?usp=sharing">Resume</a>
+          </li>
           
         </ul>
       </div>
@@ -55,24 +58,38 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
   rel="stylesheet"
 />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
     <div style="margin-top: 30px; overflow:hidden;">
-        <div style = 'width: 50%; float: left; '>
+
+      <div  style = 'width: 50%; float: left;'>
+        <div style = 'width: 100%;  display: flex;
+  align-items: center;
+  justify-content: center;'>
             <img src="IMG_20210322_212408_973 (2).jpg" class="rounded-circle" width="50%"/>
-            <div style = "margin: 20px">
-                <a style = "margin: 5px" target="_blank" class="btn-lg btn-primary rounded-circle" style="background-color: #037ffc;" href="https://linkedin.com/in/yuenler" role="button"><i class="bi bi-linkedin"></i></a>
-                <a style = "margin: 5px" target="_blank" class="btn-lg btn-primary rounded-circle" style="background-color: #037ffc;" href="https://github.com/yuenler" role="button"><i class="bi bi-github"></i></a>
-                <a style = "margin: 5px" target="_blank" class="btn-lg btn-primary rounded-circle" style="background-color: #037ffc;" href="mailto:yuenlerchow@college.harvard.edu" role="button"><i class="bi bi-envelope"></i></a>
-                    
-                </div>
+           
         </div>
+
+        <div style = "margin: 20px; display: flex;
+        align-items: center;
+        justify-content: center;">
+          <a target="_blank" href="https://linkedin.com/in/yuenler" class="fa fa-linkedin fa-3x"></a>
+          <a target="_blank" href="https://github.com/yuenler" class="fa fa-github  fa-3x"></a>
+          <a target="_blank" href="mailto:yuenlerchow@college.harvard.edu" class="fa fa-envelope  fa-3x"></a>
+          
+            </div>
+      </div>
+
+        
+          
         
         <div style="float: left; width: 50%">
         <h1>Hello 👋! I'm Yuen Ler Chow.</h1>
         
             <div>
-            <span id="typing-example">I love to develop apps</span><span id="cursor" class="blink">|</span>
+            <span style="font-size: 30px;">I love to </span><a><span id="typing-example">develop apps</span><span id="cursor" class="blink">|</span>
             </div>
         
             <p>Welcome to my website! My name is Yuen Ler, and I am a incoming sophomore at Harvard College
@@ -86,11 +103,32 @@
             
         </div>
         </div>
-    <div id="projects" style="margin-top: 30px; margin-bottom: 10px;">   
-    <h1>My projects</h1>
+    <div id="projects" class="tag" style="margin-top: 30px; margin-bottom: 10px;">   
+    <h1>Projects I've worked on</h1>
 
     <div style="overflow: hidden">
-        <div style="float:left; width: 50%">
+
+      <div style="float:left; width: 50%; min-width: 300px; text-align: center">
+        <div class="flip-card" >
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="eniac.png" style="width:300px; background-color: #43c1f7;">
+              </div>
+              <div class="flip-card-back">
+                <h2>Eniac</h2>
+                <p>Eniac is a startup founded by Caine Ardayfio. It is a text-based journaling app 
+                  that provides insights on your journal entries. Through my role as a software engineer
+                   for this company, I gained skills in web development and data analysis as well as skills in using Django and Twilio.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div style="float:left; width: 50%; min-width: 300px">
     <div class="flip-card" >
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -98,13 +136,13 @@
           </div>
           <div class="flip-card-back">
             <h2>The FaceTag</h2>
-            <p>The FaceTag is</p>
+            <p>The FaceTag is a progressive web app progressive web app (using React.js) that allows Harvard College students to exchange contact information with each other using facial recognition. I used the open source faceapi.js for the face recognition. I also implemented security & privacy features.</p>
           </div>
         </div>
       </div>
     </div>
 
-      <div style="float: left; width: 50%">
+      <div style="float: left; width: 50%; min-width: 300px">
       <div class="flip-card" >
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -112,15 +150,34 @@
           </div>
           <div class="flip-card-back">
             <h2>The Brookline High School app</h2>
-            <p>During the summer</p>
+            <p>This is a mobile app for Android and iOS (using React Native) that allows students to connect with each other. The app included a schedule tracker, in-app messaging, the ability to post school wide announcements, and a “friend finder”.</p>
+
           </div>
         </div>
       </div>
       </div>
+
+      <div style="float: left; width: 50%; min-width: 300px">
+        <div class="flip-card" >
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="beaver.png" style="width:300px">
+            </div>
+            <div class="flip-card-back">
+              <h2>Autonomous Racecar</h2>
+              <p>During the summer of 2019, I attended the MIT Beaver Works Summer Institute program. I programmed a mini-race car, integrating sensors and collision avoidance logic, to teach machines how to visually recognize objects, so as to autonomously navigate complex racetracks.
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+
     </div>
 </div>
 
-<div id="research" style="margin-top: 30px; margin-bottom: 10px;">  
+<div id="research" class="tag" style="margin-top: 30px; margin-bottom: 10px;">  
     <h1 >My research</h1>
     <div style="overflow: hidden">
     <div style="float: left; width: 50%; overflow: hidden">
@@ -131,7 +188,8 @@
             </div>
             <div class="flip-card-back">
               <h2>Polypharmacology Latent Spaces</h2>
-              <p>In summer</p>
+              <p>For the past 2 years, I have been conducting computational biology research at the Broad Institute of MIT and Harvard. My research is titled “Predicting compound mechanisms from cell morphology readouts using variational autoencoder latent space arithmetic.”
+              </p>
             </div>
           </div>
         </div>
@@ -145,7 +203,8 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>Astrophysics research</h2>
-                  <p>summer science</p>
+                  <p>During the summer of 2020, I attended the Summer Science Program. Remotely operated a research-grade telescope to take images of the near-earth asteroid 1994 LY. 
+                  </p>
                 </div>
               </div>
             </div>
@@ -154,7 +213,7 @@
     </div>
 
     
-    <div id="org" style="margin-top: 30px; margin-bottom: 10px; ">  
+    <div id="org" class="tag" style="margin-top: 30px; margin-bottom: 10px; ">  
         <h1 >My organizations</h1>
         <div style="overflow: hidden">
         <div style="float: left; width: 50%">
@@ -165,7 +224,8 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>gbSTEM</h2>
-                  <p>education</p>
+                  <p>gbSTEM is a non-profit that provides free computer science, math, and engineering enrichment to elementary school students. I developed computer science curricula for Scratch, Python, Java, HTML + CSS. I coordinate and lead training sessions, orientation, and hackathons for > 800 students taught by > 200 instructors.
+                    </p>
                 </div>
               </div>
             </div>

@@ -7,6 +7,40 @@ html{
   animation: blink 1.1s linear infinite alternate;
 }
 
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+    width: 70px;
+    height: 70px;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 100px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-envelope {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
 
 @keyframes blink {
   from {opacity: 1;}
@@ -26,12 +60,23 @@ html{
     }
 
 
+    .tag {
+      opacity: 0;
+      transform: translate(0, 10vh);
+      transition: all 1s;
+    }
+    
+    .tag.visible {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
 
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 300px;
   perspective: 1000px;
+  margin: 10px auto;
 }
 /* This container is needed to position the front and back side */
 .flip-card-inner {
@@ -67,5 +112,6 @@ html{
 .flip-card-back {
   background-color: dodgerblue;
   color: white;
+  padding: 10px;
   transform: rotateY(180deg);
 }

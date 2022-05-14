@@ -1,7 +1,7 @@
 const phrases = [
-  'I love to develop apps',
-  'I love to do research',
-  'I love to educate',    
+  'develop apps',
+  'do research',
+  'educate',    
 ];
 
 const element = document.getElementById('typing-example');
