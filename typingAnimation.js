@@ -1,13 +1,7 @@
 const phrases = [
-  'I am a software developer',
-  'I am a researcher',
-  'I am a freshman at Harvard College',
-    'I make a pretty fire-ass bussin apple pie',
-    'I am underweight but I’ve been eating more so dwai',
-    'I lowkey got tiktok famous but then I went private cause digital footprint',
-    'I need to shave my unibrow on a bi-weekly basis',
-    'I love my oversized blanket hoodie'
-    
+  'I love to develop apps',
+  'I love to do research',
+  'I love to educate',    
 ];
 
 const element = document.getElementById('typing-example');
