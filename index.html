@@ -23,15 +23,6 @@
             <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#research">Research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#org">Organizations</a>
-          </li>
-          <li class="nav-item">
             <a target="_blank" class="nav-link" href="https://docs.google.com/document/d/1prGxl3b9tvwXt3EMqHrq5gKHdp_0GB4PVj1VRiiVBWs/edit?usp=sharing">Resume</a>
           </li>
           
@@ -62,9 +53,9 @@
 
 
 
-    <div style="margin-top: 30px; overflow:hidden;">
+    <div class="row">
 
-      <div  style = 'width: 50%; float: left;'>
+      <div class="column" style="min-width: 300px;">
         <div style = 'width: 100%;  display: flex;
   align-items: center;
   justify-content: center;'>
@@ -84,65 +75,139 @@
 
         
           
-        
-        <div style="float: left; width: 50%">
+        <div class="column" style="min-width: 500px;">
         <h1>Hello 👋! I'm Yuen Ler Chow.</h1>
         
             <div>
             <span style="font-size: 30px;">I love to </span><a><span id="typing-example">develop apps</span><span id="cursor" class="blink">|</span>
             </div>
         
-            <p>Welcome to my website! My name is Yuen Ler, and I am a incoming sophomore at Harvard College
+            <p>Welcome to my website! My name is Yuen Ler, and I am a sophomore at Harvard College
                 concentrating in Computer Science and Statistics. I am a member of the Harvard Computer Society
                 and I am also the technical director of HackHarvard, which is Harvard's largest international hackathon.
                 I also love developing mobile apps and conducting research using machine learning. In my spare time,
                 I enjoy running, theater, and performing magic tricks!
             </p>
 
-            <p>Classes I've taken: Discrete Mathematics for Computer Science, Intro to Data Science, Intro to Theoretical Computer Science, Systems Programming and Organization, Intro to Probability, Applied Linear Algebra and Big Data, Data Structures and Algorithms</p>
+            <p>Classes I've taken: Data Structures and Algorithms, Data Systems, Systems Programming and Organization, Data Science, Artificial Intelligence, Applied Linear Algebra and Big Data, Theoretical Computer Science, Discrete Math, Probability, Multivariable Calculus</p>
+            <p>Clubs and Activities: Technical Director of HackHarvard, Harvard Computer Society, Residential proctor for Harvard Summer School, Asian American Dance Troupe, Candela Latin Dance Group, Quidditch Team, Chinese Students Association, Asian American Association</p>
+
             
+    </div>
         </div>
-        </div>
+
+
+
     <div id="projects" class="tag" style="margin-top: 30px; margin-bottom: 10px;">   
-    <h1>Projects I've worked on</h1>
 
     <div style="overflow: hidden">
 
-      <div style="float:left; width: 50%; min-width: 300px; text-align: center">
-        <div class="flip-card" >
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="eniac.png" style="width:300px; background-color: #43c1f7;">
-              </div>
-              <div class="flip-card-back">
-                <h2>Eniac</h2>
-                <p>Eniac is a is a text-based journaling app 
-                  that provides insights on your journal entries. Through my role as a software engineer
-                   for this company, I gained skills in web development and data analysis as well as skills in using Django and Twilio.
-                </p>
+      <div class="row">
+
+        <div class="column">
+          <div class="flip-card" >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="dce.png" style="width:300px; background-color: pink;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Harvard Division of Continuing Education</h2>
+                  <p>Developed educational technology apps as an EdTech Software Engineering Intern</p>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
 
+        <div class="column">
+          <div class="flip-card" >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="wado.png" style="width:300px">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Wado</h2>
+                  <p>Built a mobile app for Android and iOS (using React Native) that allows college students to share and find events on campus.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="column">
+            <div class="flip-card" >
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="eniac.png" style="width:300px; background-color: #43c1f7;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h2>Eniac</h2>
+                    <p>Lead software engineer for a journaling app
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <div style="float:left; width: 50%; min-width: 300px">
+            <div class="column">
+              <div class="flip-card" >
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="Fig1_projectoutline.tiff" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h2>Polypharmacology Latent Spaces</h2>
+                    <p>Computational biology research intern at the Broad Institute of MIT and Harvard</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            <div class="column">
+              <div class="flip-card" >
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="penguin.png" style="width:300px; background-color: lightblue;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h2>gbSTEM</h2>
+                    <p>Founder and Director of STEM education non-profit that has taught over 1000 students in the Greater Boston Area</p>
+                      </p>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="column">
+                <div class="flip-card" >
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="orbitviz_1.png" style="width:300px">
+                    </div>
+                    <div class="flip-card-back">
+                      <h2>Summer Science Program</h2>
+                      <p>Student astrophysics researcher 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+    
+        <div class="column">
     <div class="flip-card" >
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="icon.png" style="width:300px">
+            <img src="facetag.png" style="width:300px">
           </div>
           <div class="flip-card-back">
-            <h2>The FaceTag</h2>
-            <p>The FaceTag is a progressive web app progressive web app (using React.js) that allows Harvard College students to exchange contact information with each other using facial recognition. I used the open source faceapi.js for the face recognition. I also implemented security & privacy features.</p>
+            <h2>FaceTag</h2>
+            <p>Small personal project that explores facial recognition</p>
           </div>
         </div>
       </div>
     </div>
 
-      <div style="float: left; width: 50%; min-width: 300px">
+      <div class="column">
       <div class="flip-card" >
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -150,14 +215,14 @@
           </div>
           <div class="flip-card-back">
             <h2>The Brookline High School app</h2>
-            <p>This is a mobile app for Android and iOS (using React Native) that allows students to connect with each other. The app included a schedule tracker, in-app messaging, the ability to post school wide announcements, and a “friend finder”.</p>
+            <p>Developer of mobile app for my high school.</p>
 
           </div>
         </div>
       </div>
       </div>
 
-      <div style="float: left; width: 50%; min-width: 300px">
+      <div class="column">
         <div class="flip-card" >
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -165,77 +230,16 @@
             </div>
             <div class="flip-card-back">
               <h2>Autonomous Racecar</h2>
-              <p>During the summer of 2019, I attended the MIT Beaver Works Summer Institute program. I programmed a mini-race car, integrating sensors and collision avoidance logic, to teach machines how to visually recognize objects, so as to autonomously navigate complex racetracks.
-              </p>
+              <p>Robotics and software design for a self-driving racecar.</p>
             </div>
           </div>
         </div>
         </div>
 
-
-
-    </div>
-</div>
-
-<div id="research" class="tag" style="margin-top: 30px; margin-bottom: 10px;">  
-    <h1 >My research</h1>
-    <div style="overflow: hidden">
-    <div style="float: left; width: 50%; overflow: hidden">
-        <div class="flip-card" >
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="Fig1_projectoutline.tiff" style="width:300px">
-            </div>
-            <div class="flip-card-back">
-              <h2>Polypharmacology Latent Spaces</h2>
-              <p>For the past 2 years, I have been conducting computational biology research at the Broad Institute of MIT and Harvard. My research is titled “Predicting compound mechanisms from cell morphology readouts using variational autoencoder latent space arithmetic.”
-              </p>
-            </div>
           </div>
         </div>
-        </div>
-
-        <div style="float: left; width: 50%">
-            <div class="flip-card" >
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="orbitviz_1.png" style="width:300px">
-                </div>
-                <div class="flip-card-back">
-                  <h2>Astrophysics research</h2>
-                  <p>During the summer of 2020, I attended the Summer Science Program. Remotely operated a research-grade telescope to take images of the near-earth asteroid 1994 LY. 
-                  </p>
-                </div>
-              </div>
-            </div>
-            </div>
-        </div>
-    </div>
-
-    
-    <div id="org" class="tag" style="margin-top: 30px; margin-bottom: 10px; ">  
-        <h1 >My organizations</h1>
-        <div style="overflow: hidden">
-        <div style="float: left; width: 50%">
-            <div class="flip-card" >
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="penguin.png" style="width:300px">
-                </div>
-                <div class="flip-card-back">
-                  <h2>gbSTEM</h2>
-                  <p>gbSTEM is a non-profit that provides free computer science, math, and engineering enrichment to elementary school students. I developed computer science curricula for Scratch, Python, Java, HTML + CSS. I coordinate and lead training sessions, orientation, and hackathons for > 800 students taught by > 200 instructors.
-                    </p>
-                </div>
-              </div>
-            </div>
-            </div>
-        </div>
-    
-        </div>
-
-    
-
+      </div>
+  
     
     
 <script src="typingAnimation.js"></script>
