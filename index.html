@@ -59,7 +59,7 @@
         <div style = 'width: 100%;  display: flex;
   align-items: center;
   justify-content: center;'>
-            <img src="IMG_20210322_212408_973 (2).jpg" class="rounded-circle" width="50%"/>
+            <img src="IMG_20210322_212408_973 (2).jpg" class="rounded-circle" style="max-width: 300px;"/>
            
         </div>
 
@@ -75,7 +75,7 @@
 
         
           
-        <div class="column" style="min-width: 500px;">
+        <div class="column" style="flex: 60%; min-width: 500px;">
         <h1>Hello 👋! I'm Yuen Ler Chow.</h1>
         
             <div>
@@ -91,7 +91,7 @@
 
             <p>Classes I've taken: Data Structures and Algorithms, Data Systems, Systems Programming and Organization, Data Science, Artificial Intelligence, Applied Linear Algebra and Big Data, Theoretical Computer Science, Discrete Math, Probability, Multivariable Calculus</p>
             <p>Clubs and Activities: Technical Director of HackHarvard, Harvard Computer Society, Residential proctor for Harvard Summer School, Asian American Dance Troupe, Candela Latin Dance Group, Quidditch Team, Chinese Students Association, Asian American Association</p>
-
+            <p>Tools and technologies: Python, Javascript, Typescript, Java, C++, HTML, CSS, Linux, React.js, React Native, Android Studio, Google Cloud Firebase, Django, Twilio, Pandas, Tensorflow, Keras, Numpy, Sklearn, Matplotlib, Seaborn, Github, Jupyter notebooks, Matlab, Mathematica</p>
             
     </div>
         </div>
@@ -113,8 +113,18 @@
                 <div class="flip-card-back">
                   <h2>Harvard Division of Continuing Education</h2>
                   <p>Developed educational technology apps as an EdTech Software Engineering Intern</p>
+                  <a href="#dce" class="myBtn"><button type="button" class="btn btn-secondary">More info</button></a>
+
                   </p>
                 </div>
+              </div>
+            </div>
+            <div id="dce" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p1 style="color: black">As an EdTech software engineering intern, I wrote TypeScript code that integrated with Canvas API to allow professors to easily migrate courses between semesters.
+                  I developed UI in React, allowing teachers to select which course and which items from that course they want to migrate.
+                  I conducted thorough unit testing with React Testing Library to ensure front-end components work correctly and consistently</p1>
               </div>
             </div>
           </div>
@@ -129,7 +139,20 @@
                 <div class="flip-card-back">
                   <h2>Wado</h2>
                   <p>Built a mobile app for Android and iOS (using React Native) that allows college students to share and find events on campus.</p>
+                  <a href="#wado" class="myBtn"><button type="button" class="btn btn-secondary">More info</button></a>
+                
                 </div>
+              </div>
+            </div>
+            <div id="wado" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p1 style="color: black">I built a mobile app for Android and iOS (using React Native) that allows college students to share and find events on campus.
+                  I integrated with Google Maps and Apple Maps API to create an interactive map showing all events happening.
+                  I wrote efficient memory-saving code that allows users to search, filter, star, and archive through hundreds of different events.
+                  The app authenticated users using their Google account and securely stored user data in Google Cloud’s Firebase.
+                  I incorporated push notifications into the app so users are notified when events are happening near them.
+                  I published the app on the Apple App Store and Google Play and marketed the app on my college campus.</p1>
               </div>
             </div>
           </div>
@@ -142,9 +165,19 @@
                   </div>
                   <div class="flip-card-back">
                     <h2>Eniac</h2>
-                    <p>Lead software engineer for a journaling app
-                    </p>
+                    <p>Lead software engineer for a journaling app</p>
+                  <a href="#eniac" class="myBtn"><button type="button" class="btn btn-secondary">More info</button></a>
+
                   </div>
+                </div>
+              </div>
+              <div id="eniac" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p1 style="color: black">In my role, I used natural language processing (with NLTK) on journal entries submitted by users to provide journal sentiment insights.
+                    I integrated with Python Twilio API to create a fluid and natural texting experience for the user to submit journal entries.
+                    I developed UI such as a weekly summary, badges earned modal, and a heatmap of their mood over time.
+                    I created a Django MySQL database to store user profile information and user journal entries.</p1>
                 </div>
               </div>
             </div>
@@ -158,7 +191,17 @@
                   <div class="flip-card-back">
                     <h2>Polypharmacology Latent Spaces</h2>
                     <p>Computational biology research intern at the Broad Institute of MIT and Harvard</p>
+                  <a href="#broad" class="myBtn"><button type="button" class="btn btn-secondary">More info</button></a>
+                    
                   </div>
+                </div>
+              </div>
+              <div id="broad" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p1 style="color: black">Predicted compound mechanisms from cell morphology readouts using variational autoencoder latent space arithmetic.
+                    Trained deep learning model (Tensorflow and Keras) and interpreted results using data science (Pandas, NumPy, MatPlotLib).
+                    Published research paper (as first author) in PLOS Computational Biology (https://doi.org/10.1371/journal.pcbi.1009888).</p1>
                 </div>
               </div>
               </div>
@@ -173,7 +216,19 @@
                     <h2>gbSTEM</h2>
                     <p>Founder and Director of STEM education non-profit that has taught over 1000 students in the Greater Boston Area</p>
                       </p>
+                  <a href="#gbstem" class="myBtn"><button type="button" class="btn btn-secondary">More info</button></a>
+
                   </div>
+                </div>
+              </div>
+              <div id="gbstem" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p1 style="color: black">Established a registered 501(c)3 non-profit that provides free STEM enrichment to elementary and middle school students.
+                    Managed a team of 30 people with leadership roles in the organization and led weekly team meetings.
+                    Developed computer science curricula for Scratch, Python, Java, HTML + CSS.
+                    Coordinated and led training sessions, orientation, and hackathons for > 1000 students taught by > 300 instructors.
+                    </p1>
                 </div>
               </div>
               </div>
@@ -188,7 +243,17 @@
                       <h2>Summer Science Program</h2>
                       <p>Student astrophysics researcher 
                       </p>
+                  <a href="#ssp" class="myBtn"><button type="button" class="btn btn-secondary">More info</button></a>
+
                     </div>
+                  </div>
+                </div>
+                <div id="ssp" class="modal">
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p1 style="color: black">Remotely operated a research-grade telescope to take images of the near-earth asteroid 1994 LY.
+                      Wrote Python programs to calculate (using college-level Astronomy and Physics) the asteroid's orbital elements based on its positions in the sky.
+                      Results were published by the Minor Planet Center.</p1>
                   </div>
                 </div>
                 </div>
@@ -201,8 +266,16 @@
           </div>
           <div class="flip-card-back">
             <h2>FaceTag</h2>
-            <p>Small personal project that explores facial recognition</p>
+            <p>A small personal project to explore open source facial recognition AI. I created a progressive web app that allows Harvard College students to exchange contact information using facial recognition. I used the open source faceapi.js and implemented security & privacy features.</p>
           </div>
+        </div>
+      </div>
+      <div id="dce" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p1 style="color: black">As an EdTech software engineering intern, I wrote TypeScript code that integrated with Canvas API to allow professors to easily migrate courses between semesters.
+            I developed UI in React, allowing teachers to select which course and which items from that course they want to migrate.
+            I conducted thorough unit testing with React Testing Library to ensure front-end components work correctly and consistently</p1>
         </div>
       </div>
     </div>
@@ -214,10 +287,18 @@
             <img src="bhs.jpg" style="width:300px">
           </div>
           <div class="flip-card-back">
-            <h2>The Brookline High School app</h2>
-            <p>Developer of mobile app for my high school.</p>
+            <h2>The BHS app</h2>
+            <p>Created this app (using React Native) for my high school that featured a real-time schedule tracker, messaging for students in the same class, the ability to post schoolwide announcements, and a friend finder. App had over 1500 downloads and over 6000 daily usage sessions.</p>
 
           </div>
+        </div>
+      </div>
+      <div id="dce" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p1 style="color: black">As an EdTech software engineering intern, I wrote TypeScript code that integrated with Canvas API to allow professors to easily migrate courses between semesters.
+            I developed UI in React, allowing teachers to select which course and which items from that course they want to migrate.
+            I conducted thorough unit testing with React Testing Library to ensure front-end components work correctly and consistently</p1>
         </div>
       </div>
       </div>
@@ -229,9 +310,17 @@
               <img src="beaver.png" style="width:300px">
             </div>
             <div class="flip-card-back">
-              <h2>Autonomous Racecar</h2>
-              <p>Robotics and software design for a self-driving racecar.</p>
+              <h2>Student at MIT Beaver Works</h2>
+              <p>Programmed a mini racecar, integrating sensors and collision avoidance logic and teaching machines to visually recognize objects, so as to autonomously navigate complex racetracks.</p>
             </div>
+          </div>
+        </div>
+        <div id="dce" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p1 style="color: black">As an EdTech software engineering intern, I wrote TypeScript code that integrated with Canvas API to allow professors to easily migrate courses between semesters.
+              I developed UI in React, allowing teachers to select which course and which items from that course they want to migrate.
+              I conducted thorough unit testing with React Testing Library to ensure front-end components work correctly and consistently</p1>
           </div>
         </div>
         </div>
