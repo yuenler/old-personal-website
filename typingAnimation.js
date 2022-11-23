@@ -1,7 +1,7 @@
 const phrases = [
   'develop apps',
   'do research',
-  'educate',    
+  'teach',
 ];
 
 const element = document.getElementById('typing-example');
@@ -19,20 +19,20 @@ const switchDirection = () => {
   if (direction === 1) {
     /* Just started typing again, time to switch phrase */
     phraseIdx++;
-    if (phraseIdx >= phrases.length) {phraseIdx = 0;}
+    if (phraseIdx >= phrases.length) { phraseIdx = 0; }
     sentence = phrases[phraseIdx];
   }
 };
 
 const toggleTyping = () => {
   blinking = !blinking;
-  if (blinking) {cursor.classList.add('blink')} else {cursor.classList.remove('blink');}
+  if (blinking) { cursor.classList.add('blink') } else { cursor.classList.remove('blink'); }
 }
 
 window.setInterval(() => {
   const atStart = cursorPos === 0;
   const atEnd = cursorPos === sentence.length;
-  if (atStart && direction === -1 || atEnd && direction === 1) {switchDirection();}
+  if (atStart && direction === -1 || atEnd && direction === 1) { switchDirection(); }
 
   if (!blinking) {
     cursorPos += direction;
