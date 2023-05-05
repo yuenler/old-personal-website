@@ -1,7 +1,10 @@
 const phrases = [
-  'develop apps',
-  'do research',
-  'teach',
+  'website and app builder',
+  'STEM educator',
+  'dancer',
+  'Quidditch player',
+  'magician',
+  'marathon runner'
 ];
 
 const element = document.getElementById('typing-example');
